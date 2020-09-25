@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="user-scalable=0, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+        <title>SYLENT SERVERSIDE</title>
+        <link rel="shortcut icon" href="assets/images/image-removebg-preview_1.png">
+        <meta property="og:site_name" content="Sylent Serverside">
+        <meta property="og:title" content="Sylent Serverside">
+        <meta property="og:description" content="High Level Roblox Serverside. Good for Scripters with it's own API, and higher level context methods.">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="assets/css/izitoast.css" rel="stylesheet">
+        <link href="assets/css/preloader.css" rel="stylesheet">
+        <script src="assets/js/particles.min.js"></script>
+        <script src="assets/js/main.js" type="ea6ea3b2bbdf438d2fdee388-text/javascript"></script>
+        <script src="assets/js/jquery-2.1.4.min.js"></script>
+        <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js" data-cf-settings="ea6ea3b2bbdf438d2fdee388-|49" defer=""></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="assets/js/izitoast.js"></script>
+        <script src="assets/js/preloader.js"></script>
+    </head>
+    <body>
+        <body oncontextmenu="return false;">
+            <div class="preloader">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+        
+            <div style="height: 100%; background-image: url('assets/images/landingpage.png'); background-position: center; background-repeat: no-repeat; background-size: cover;" data-scroll-index="0">
+        
+                <div id="particles-js"></div>
+                <div class="center">
+                    <div class="center-content">
+                        <div class="landingpage">
+                            <img src="assets/images/image-removebg-preview_1.png"/>
+                            <div style="line-height: 0.70;">
+                                <h1>SYLENT SERVERSIDE
+        
+                            </div>
+                            <br>
+                            <div style="line-height: 1;">
+                                <p>High Level Roblox Serverside. Good for Scripters with it's own API, and higher level context methods.<br>
+                                    </p>
+                                <br>
+                                <br>
+                                <a href="tos.html">Terms Of Service</a>
+                                <br><a href="rules.html">Rules</a>
+                                <br><a href="faq.html">Frequently Asked Questions</a>
+                                <br><br>
+                                <br>
+                                <br>
+                                <p><strong>Make sure to join the<a href="discord.html" target="_blank"> Discord</a> before buying.</p></strong>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                $('.count').each(function () {
+                  $(this).prop('Counter',0).animate({
+                      Counter: $(this).text()
+                  }, {
+                      duration: 5000,
+                      easing: 'swing',
+                      step: function (now) {
+                          $(this).text(Math.ceil(now));
+                      }
+                  });
+                });
+                document.onkeydown = function(e) {
+                  if(event.keyCode == 123) {
+                     return false;
+                  }
+                  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                     return false;
+                  }
+                  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+                     return false;
+                  }
+                  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                     return false;
+                  }
+                  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                     return false;
+                  }
+                }
+            </script>
+    </body>
+</html>
